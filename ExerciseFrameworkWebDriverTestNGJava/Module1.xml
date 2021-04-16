@@ -1,0 +1,17 @@
+<suite name="Module1: CompareLengthValidate">
+    <test name="Compare Welcome Text">
+        <classes>
+            <class name="exercise.Module1.CompareWelcomeText"></class>
+        </classes>
+    </test>
+    <test name="SearchBox Length">
+        <classes>
+            <class name="exercise.Module1.ValidateMaxLengthSearchBox"></class>
+        </classes>
+    </test>
+    <test name="Validate User">
+        <classes>
+            <class name="exercise.Module1.ValidateUser"></class>
+        </classes>
+    </test>
+</suite>

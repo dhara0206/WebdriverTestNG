@@ -1,0 +1,17 @@
+<suite name="Module2: SearchSelectandClick">
+    <test name="BestSeller Link">
+        <classes>
+            <class name="exercise.Module2.ExtractBestSellersLinks"></class>
+        </classes>
+    </test>
+    <test name="Search Product">
+        <classes>
+            <class name="exercise.Module2.SearchProduct"></class>
+        </classes>
+    </test>
+    <test name="Select Manufacturer">
+        <classes>
+            <class name="exercise.Module2.SelectManufacturer"></class>
+        </classes>
+    </test>
+</suite>

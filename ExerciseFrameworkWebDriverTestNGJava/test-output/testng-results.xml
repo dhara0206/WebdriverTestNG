@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-04-15T17:43:26 IST" name="Module1: CompareLengthValidate" finished-at="2021-04-15T17:43:46 IST" duration-ms="20063">
+    <groups>
+    </groups>
+    <test started-at="2021-04-15T17:43:26 IST" name="Compare Welcome Text" finished-at="2021-04-15T17:43:36 IST" duration-ms="10384">
+      <class name="exercise.Module1.CompareWelcomeText">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:exercise.Module1.CompareWelcomeText@757acd7b]" started-at="2021-04-15T17:43:26 IST" name="SetUp" finished-at="2021-04-15T17:43:31 IST" duration-ms="5165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="testCompareWelcomeText()[pri:0, instance:exercise.Module1.CompareWelcomeText@757acd7b]" started-at="2021-04-15T17:43:31 IST" name="testCompareWelcomeText" finished-at="2021-04-15T17:43:36 IST" duration-ms="5172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCompareWelcomeText -->
+      </class> <!-- exercise.Module1.CompareWelcomeText -->
+    </test> <!-- Compare Welcome Text -->
+    <test started-at="2021-04-15T17:43:36 IST" name="SearchBox Length" finished-at="2021-04-15T17:43:40 IST" duration-ms="3488">
+      <class name="exercise.Module1.ValidateMaxLengthSearchBox">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:exercise.Module1.ValidateMaxLengthSearchBox@5136d012]" started-at="2021-04-15T17:43:36 IST" name="SetUp" finished-at="2021-04-15T17:43:36 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="testValidateMaxLengthSearchBox()[pri:0, instance:exercise.Module1.ValidateMaxLengthSearchBox@5136d012]" started-at="2021-04-15T17:43:36 IST" name="testValidateMaxLengthSearchBox" finished-at="2021-04-15T17:43:40 IST" duration-ms="3471" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidateMaxLengthSearchBox -->
+      </class> <!-- exercise.Module1.ValidateMaxLengthSearchBox -->
+    </test> <!-- SearchBox Length -->
+    <test started-at="2021-04-15T17:43:40 IST" name="Validate User" finished-at="2021-04-15T17:43:46 IST" duration-ms="6120">
+      <class name="exercise.Module1.ValidateUser">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:exercise.Module1.ValidateUser@140c9f39]" started-at="2021-04-15T17:43:40 IST" name="SetUp" finished-at="2021-04-15T17:43:40 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="testValidateUser(java.lang.String, java.lang.String)[pri:0, instance:exercise.Module1.ValidateUser@140c9f39]" started-at="2021-04-15T17:43:40 IST" name="testValidateUser" data-provider="getTestDataFromXLS" finished-at="2021-04-15T17:43:46 IST" duration-ms="6088" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dharagujarati0206@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dhara123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidateUser -->
+      </class> <!-- exercise.Module1.ValidateUser -->
+    </test> <!-- Validate User -->
+  </suite> <!-- Module1: CompareLengthValidate -->
+  <suite started-at="2021-04-15T17:44:30 IST" name="FinaleRelease-21012021" finished-at="2021-04-15T17:44:30 IST" duration-ms="0">
+    <groups>
+    </groups>
+  </suite> <!-- FinaleRelease-21012021 -->
+  <suite started-at="2021-04-15T17:43:46 IST" name="Module2: SearchSelectandClick" finished-at="2021-04-15T17:44:30 IST" duration-ms="43937">
+    <groups>
+    </groups>
+    <test started-at="2021-04-15T17:43:46 IST" name="BestSeller Link" finished-at="2021-04-15T17:44:09 IST" duration-ms="22931">
+      <class name="exercise.Module2.ExtractBestSellersLinks">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:exercise.Module2.ExtractBestSellersLinks@7671cb68]" started-at="2021-04-15T17:43:46 IST" name="SetUp" finished-at="2021-04-15T17:43:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="testExtractBestSellersLinks()[pri:0, instance:exercise.Module2.ExtractBestSellersLinks@7671cb68]" started-at="2021-04-15T17:43:46 IST" name="testExtractBestSellersLinks" finished-at="2021-04-15T17:44:09 IST" duration-ms="22924" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExtractBestSellersLinks -->
+      </class> <!-- exercise.Module2.ExtractBestSellersLinks -->
+    </test> <!-- BestSeller Link -->
+    <test started-at="2021-04-15T17:44:09 IST" name="Search Product" finished-at="2021-04-15T17:44:28 IST" duration-ms="19270">
+      <class name="exercise.Module2.SearchProduct">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:exercise.Module2.SearchProduct@55536d9e]" started-at="2021-04-15T17:44:09 IST" name="SetUp" finished-at="2021-04-15T17:44:09 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="testSearchProduct(java.lang.String)[pri:0, instance:exercise.Module2.SearchProduct@55536d9e]" started-at="2021-04-15T17:44:09 IST" name="testSearchProduct" data-provider="getproductname" finished-at="2021-04-15T17:44:13 IST" duration-ms="4006" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[samsung]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchProduct -->
+        <test-method signature="testSearchProduct(java.lang.String)[pri:0, instance:exercise.Module2.SearchProduct@55536d9e]" started-at="2021-04-15T17:44:13 IST" name="testSearchProduct" data-provider="getproductname" finished-at="2021-04-15T17:44:17 IST" duration-ms="4001" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sony]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchProduct -->
+        <test-method signature="testSearchProduct(java.lang.String)[pri:0, instance:exercise.Module2.SearchProduct@55536d9e]" started-at="2021-04-15T17:44:17 IST" name="testSearchProduct" data-provider="getproductname" finished-at="2021-04-15T17:44:21 IST" duration-ms="3852" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchProduct -->
+        <test-method signature="testSearchProduct(java.lang.String)[pri:0, instance:exercise.Module2.SearchProduct@55536d9e]" started-at="2021-04-15T17:44:21 IST" name="testSearchProduct" data-provider="getproductname" finished-at="2021-04-15T17:44:24 IST" duration-ms="3704" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[headphones]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchProduct -->
+        <test-method signature="testSearchProduct(java.lang.String)[pri:0, instance:exercise.Module2.SearchProduct@55536d9e]" started-at="2021-04-15T17:44:24 IST" name="testSearchProduct" data-provider="getproductname" finished-at="2021-04-15T17:44:28 IST" duration-ms="3684" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iphone]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchProduct -->
+      </class> <!-- exercise.Module2.SearchProduct -->
+    </test> <!-- Search Product -->
+    <test started-at="2021-04-15T17:44:28 IST" name="Select Manufacturer" finished-at="2021-04-15T17:44:30 IST" duration-ms="1720">
+      <class name="exercise.Module2.SelectManufacturer">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:exercise.Module2.SelectManufacturer@11bd0f3b]" started-at="2021-04-15T17:44:28 IST" name="SetUp" finished-at="2021-04-15T17:44:28 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="testSelectManufacturer()[pri:0, instance:exercise.Module2.SelectManufacturer@11bd0f3b]" started-at="2021-04-15T17:44:28 IST" name="testSelectManufacturer" finished-at="2021-04-15T17:44:30 IST" duration-ms="1545" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectManufacturer -->
+        <test-method is-config="true" signature="closebrowse()[pri:0, instance:exercise.Module2.SelectManufacturer@11bd0f3b]" started-at="2021-04-15T17:44:30 IST" name="closebrowse" finished-at="2021-04-15T17:44:30 IST" duration-ms="171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowse -->
+      </class> <!-- exercise.Module2.SelectManufacturer -->
+    </test> <!-- Select Manufacturer -->
+  </suite> <!-- Module2: SearchSelectandClick -->
+</testng-results>
